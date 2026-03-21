@@ -1,0 +1,77 @@
+# _data/skills.yml
+
+- category: "Langages de programmation"
+  icon: "fas fa-code"
+  color: "purple"
+  items:
+    - Python
+    - R
+    - SQL
+    - PHP
+    - HTML
+    - CSS
+
+- category: "Machine Learning & IA"
+  icon: "fas fa-brain"
+  color: "teal"
+  items:
+    - scikit-learn
+    - TensorFlow
+    - Keras
+    - PyTorch
+    - "Machine Learning"
+    - "Deep Learning"
+    - "Data Mining"
+
+- category: "Data & Visualisation"
+  icon: "fas fa-chart-bar"
+  color: "coral"
+  items:
+    - Pandas
+    - NumPy
+    - Matplotlib
+    - Seaborn
+    - Plotly
+    - "Power BI"
+    - "R Shiny"
+    - "Excel avancé"
+
+- category: "Bases de données"
+  icon: "fas fa-database"
+  color: "blue"
+  items:
+    - PostgreSQL
+    - MongoDB
+    - Neo4j
+    - "Bases relationnelles"
+    - "NoSQL"
+
+- category: "Statistiques & Analyse"
+  icon: "fas fa-square-root-alt"
+  color: "amber"
+  items:
+    - STATA
+    - SPSS
+    - "Modélisation statistique"
+    - "Statistique inférentielle"
+    - MICE
+
+- category: "Collecte & SIG"
+  icon: "fas fa-map-marked-alt"
+  color: "green"
+  items:
+    - QGIS
+    - KoboCollect
+    - ODK
+
+- category: "Outils & Environnements"
+  icon: "fas fa-tools"
+  color: "gray"
+  items:
+    - "Jupyter Notebook"
+    - "VS Code"
+    - WampServer
+    - LaTeX
+    - Git
+    - "GitHub"
+    - "Google Cloud Platform"

@@ -1,0 +1,73 @@
+# _data/projects.yml
+# Ajoute ici chaque nouveau projet quand tu es prêt
+# status: "terminé" | "en_cours"
+
+- id: croissance-enfants
+  title: "Analyse des courbes de croissance pédiatrique"
+  description: >-
+    Analyse statistique et prédictive des courbes de croissance d'enfants (1–18 ans).
+    Nettoyage et prétraitement longitudinal, interpolation spline, classification supervisée
+    et détection d'anomalies par âge.
+  tags: [Python, R, Spline, KNN, LDA, Régression logistique, Welch]
+  category: "Machine Learning"
+  status: "terminé"
+  github: "https://github.com/Sadabire/Croissance-enfants"
+  date: 2025
+
+- id: migration-sql-nosql
+  title: "Migration et optimisation SQL → NoSQL"
+  description: >-
+    Analyse de performance des requêtes SQL (EXPLAIN ANALYZE), migration de PostgreSQL
+    vers MongoDB (export JSON, agrégation, $lookup), optimisation par dénormalisation
+    et indexation.
+  tags: [PostgreSQL, MongoDB, SQL, NoSQL, JSON]
+  category: "Bases de données"
+  status: "terminé"
+  github: "https://github.com/Sadabire/Migration-de-SQL-vers-NoSQL"
+  date: 2025
+
+- id: deepfake-ia
+  title: "Deepfake, IA Générative & Cybersécurité"
+  description: >-
+    Étude des techniques de génération de deepfakes, analyse des risques en
+    cybersécurité et des enjeux éthiques liés aux médias synthétiques générés par IA.
+  tags: [IA générative, Deepfake, Cybersécurité, Deep Learning]
+  category: "IA & Éthique"
+  status: "terminé"
+  github: "https://github.com/Sadabire/Deepfake-IA-Generative-Media-Cybersecurite"
+  date: 2025
+
+- id: analyse-ventes-reseau
+  title: "Analyse des ventes d'un réseau de magasins"
+  description: >-
+    Projet SAE BUT 3 Science des données. Exploration, modélisation et visualisation
+    des données de ventes d'un réseau de magasins pour identifier les tendances
+    et optimiser les performances commerciales.
+  tags: [R, Statistiques, Visualisation, Data Mining]
+  category: "Data Analysis"
+  status: "terminé"
+  github: "https://github.com/Sadabire/Analyse-des-ventes-de-produits-dans-un-r-seau-de-magasins"
+  date: 2025
+
+- id: imputation-mice
+  title: "Stratégies d'imputation sur données réelles"
+  description: >-
+    Étude des mécanismes MCAR, MAR et MNAR. Imputations simples et multiples (MICE)
+    via des pipelines scikit-learn appliqués au dataset Titanic.
+  tags: [Python, scikit-learn, MICE, Pandas, Statistiques]
+  category: "Machine Learning"
+  status: "terminé"
+  github: ""
+  date: 2025
+
+- id: analyse-ventes-powerbi
+  title: "Étude de cas : Analyse des ventes avec Power BI"
+  description: >-
+    Conception d'un tableau de bord interactif Power BI pour l'analyse des ventes.
+    Modélisation des données, création de mesures DAX et visualisation des KPIs
+    pour le pilotage commercial.
+  tags: [Power BI, DAX, Data Visualization, Business Intelligence]
+  category: "Data Visualisation"
+  status: "en_cours"
+  github: ""
+  date: 2026

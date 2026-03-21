@@ -1,0 +1,38 @@
+# _data/veille.yml
+# Ajoute ici tes ressources et articles de veille technologique
+
+- category: "IA & Machine Learning"
+  items:
+    - title: "Anthropic — Claude & LLMs"
+      url: "https://www.anthropic.com"
+      note: "Recherche en IA responsable et grands modèles de langage"
+    - title: "Hugging Face Blog"
+      url: "https://huggingface.co/blog"
+      note: "Dernières avancées en NLP et modèles open-source"
+    - title: "Arxiv — cs.LG"
+      url: "https://arxiv.org/list/cs.LG/recent"
+      note: "Prépublications en machine learning"
+
+- category: "Data Science & Big Data"
+  items:
+    - title: "Towards Data Science"
+      url: "https://towardsdatascience.com"
+      note: "Articles pratiques sur Python, ML et visualisation"
+    - title: "Kaggle Blog"
+      url: "https://medium.com/kaggle-blog"
+      note: "Compétitions et solutions data science"
+
+- category: "Marchés financiers"
+  items:
+    - title: "Bloomberg Markets"
+      url: "https://www.bloomberg.com/markets"
+      note: "Actualité des marchés financiers"
+    - title: "CoinDesk"
+      url: "https://www.coindesk.com"
+      note: "Crypto et actifs numériques"
+
+- category: "Cloud & DevOps"
+  items:
+    - title: "Google Cloud Blog"
+      url: "https://cloud.google.com/blog"
+      note: "Nouveautés GCP — en lien avec mes certifications"

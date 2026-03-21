@@ -1,0 +1,15 @@
+# _data/navigation.yml
+
+main:
+  - title: "À propos"
+    url: /about/
+  - title: "Compétences"
+    url: /competences/
+  - title: "Projets"
+    url: /projets/
+  - title: "Expériences"
+    url: /experiences/
+  - title: "Veille"
+    url: /veille/
+  - title: "Contact"
+    url: /contact/

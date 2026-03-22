@@ -38,13 +38,14 @@ author:
     Analyse de données · Machine Learning · Big Data.
   location: "Aurillac, France · Mobilité nationale"
   email: "jodabire18@gmail.com"
+  phone: "07 80 54 61 99" 
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Sadabire"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/joel-dabire"  # à mettre à jour
+      url: "http://www.linkedin.com/in/dabsanj18"  # à mettre à jour
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:jodabire18@gmail.com"
@@ -57,7 +58,7 @@ footer:
       url: "https://github.com/Sadabire"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/joel-dabire"
+      url: "http://www.linkedin.com/in/dabsanj18"
 
 # --- Navigation ---
 # Définie dans _data/navigation.yml

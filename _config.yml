@@ -49,6 +49,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:jodabire18@gmail.com"
+    - label: "07 80 54 61 99"
+      icon: "fas fa-fw fa-phone"
+      url: "tel:+33780546199"
 
 # --- Footer ---
 footer:

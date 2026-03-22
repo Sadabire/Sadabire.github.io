@@ -35,7 +35,7 @@ N'hésite pas à m'écrire directement.
 </style>
 
 <!-- Remplace l'action par ton endpoint Formspree après inscription sur formspree.io -->
-<form class="contact-form" action="https://formspree.io/f/https://formspree.io/f/xdawvrpp" method="POST">
+<form class="contact-form" action="https://formspree.io/f/xdawvrpp" method="POST">
   <input type="text"  name="name"    placeholder="Votre nom"    required>
   <input type="email" name="_replyto" placeholder="Votre email"  required>
   <input type="text"  name="subject" placeholder="Objet">

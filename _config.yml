@@ -37,7 +37,6 @@ author:
     Étudiant ingénieur IA & Big Data · ESIGELEC Poitiers.
     Analyse de données · Machine Learning · Big Data.
   location: "Aurillac, France · Mobilité nationale"
-  email: "jodabire18@gmail.com"
   phone: "07 80 54 61 99" 
   links:
     - label: "GitHub"
@@ -109,3 +108,5 @@ exclude:
   - "*.gem"
   - README.md
   - vendor
+head_scripts:
+  - /assets/css/custom.css

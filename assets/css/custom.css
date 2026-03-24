@@ -1,0 +1,49 @@
+/* ================================================
+   custom.css — Portfolio Joël DABIRE
+   Fond gris style Claude AI sur tout le site
+   ================================================ */
+
+/* Fond gris général */
+body {
+  background-color: #f4f3ef !important;
+}
+
+.page__content,
+.archive,
+.sidebar {
+  background-color: #f4f3ef !important;
+}
+
+.page__inner-wrap {
+  background-color: #f4f3ef !important;
+}
+
+/* Sidebar author */
+.sidebar.sticky {
+  background-color: #f4f3ef !important;
+}
+
+/* Cards projets et compétences sur fond blanc pour contraste */
+.project-card,
+.skill-card {
+  background: #ffffff !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+
+/* Fond blanc sur les pages simples */
+.page,
+.page__hero,
+.initial-content {
+  background-color: #f4f3ef !important;
+}
+
+/* Masthead (barre de navigation) */
+.masthead {
+  background-color: #f4f3ef !important;
+  border-bottom: 1px solid #e0deda;
+}
+
+/* Footer */
+.page__footer {
+  background-color: #e8e7e3 !important;
+}

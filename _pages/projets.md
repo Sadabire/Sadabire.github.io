@@ -26,10 +26,11 @@ author_profile: true
 }
 .project-img {
   width: 100%;
-  height: 180px;
-  object-fit: cover;
+  height: auto;
+  max-height: 280px;
+  object-fit: contain;
+  background: #f8f8f8;
   display: block;
-  background: linear-gradient(135deg, #0d1b2a, #1a3a5c);
 }
 .project-img-placeholder {
   width: 100%;

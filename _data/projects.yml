@@ -1,11 +1,16 @@
 - id: croissance-enfants
   title: "Analyse des courbes de croissance pédiatrique"
   description: >-
-    Analyse statistique et prédictive des courbes de croissance d'enfants (1–18 ans).
-    Nettoyage longitudinal, interpolation spline, classification supervisée et détection d'anomalies.
+    Analyse longitudinale des courbes de croissance d'enfants (1–18 ans) pour 
+    aider au dépistage précoce de troubles hormonaux. Gestion des valeurs 
+    manquantes, interpolation spline cubique, comparaison statistique filles/garçons 
+    par tests t, classification supervisée du sexe et détection d'enfants atypiques 
+    par IMC et discordance prédictive KNN.
   results: >-
-    Précision KNN : 87% · Détection d'anomalies sur 3 tranches d'âge · Pipeline complet Python/R
-  tags: [Python, R, Spline, KNN, LDA, Régression logistique, Welch]
+    KNN meilleur classifieur : accuracy 72,5% (validation croisée 10-fold stable à 72,2%) · 
+    237 enfants à croissance atypique détectés · 5 374 enfants à IMC anormal · 
+    111 enfants cumulant les deux anomalies sur 9 184 analysés
+  tags: [Python, R, Spline cubique, KNN, LDA, QDA, Régression logistique, Naïve Bayes, Tests t, IMC]
   category: "Machine Learning"
   status: "terminé"
   github: "https://github.com/Sadabire/Croissance-enfants"
@@ -16,11 +21,16 @@
 - id: migration-sql-nosql
   title: "Migration et optimisation SQL → NoSQL"
   description: >-
-    Analyse de performance des requêtes SQL (EXPLAIN ANALYZE), migration PostgreSQL → MongoDB,
-    optimisation par dénormalisation et indexation.
+    Migration complète d'une base relationnelle PostgreSQL (6 tables, 300 024 
+    employés) vers MongoDB. Mesure du coût des jointures SQL avec EXPLAIN ANALYZE, 
+    export JSON via row_to_json et COPY, import avec mongoimport, puis 
+    dénormalisation et indexation pour optimiser les performances de lecture.
   results: >-
-    Temps de requête réduit de 40% · Migration complète PostgreSQL → MongoDB · Indexation optimisée
-  tags: [PostgreSQL, MongoDB, SQL, NoSQL, JSON]
+    Jointure PostgreSQL : 3 698 ms → vue matérialisée : 540 ms · 
+    Jointure MongoDB ($lookup) : 33 s → collection dénormalisée : 17 s (2x plus rapide) · 
+    Recherche 1 employé : ~100 ms → 17 ms (6x plus rapide) · 
+    Temps par document : 0,11 ms → 0,06 ms (45% plus rapide)
+  tags: [PostgreSQL, MongoDB, EXPLAIN ANALYZE, JSON, mongoimport, Dénormalisation, Indexation, pgAdmin]
   category: "Bases de données"
   status: "terminé"
   github: "https://github.com/Sadabire/Migration-de-SQL-vers-NoSQL"
@@ -31,11 +41,17 @@
 - id: deepfake-ia
   title: "Deepfake, IA Générative & Cybersécurité"
   description: >-
-    Étude des techniques de génération de deepfakes, analyse des risques en cybersécurité
-    et enjeux éthiques liés aux médias synthétiques.
+    Étude approfondie des deepfakes : fonctionnement des GANs et auto-encodeurs, 
+    technologies de face-swapping, outils de création (DeepFaceLab, HeyGen, 
+    Resemble AI). Analyse des menaces (désinformation, fraude au président, 
+    atteintes aux individus), impacts sociétaux et juridiques, et moyens de 
+    prévention (détection IA, watermarking, blockchain, MFA). Réalisation 
+    d'un deepfake expérimental.
   results: >-
-    Analyse comparative de 5 techniques · Rapport sur les vecteurs d'attaque · Recommandations RGPD
-  tags: [IA générative, Deepfake, Cybersécurité, Deep Learning]
+    Analyse comparative de 6 outils deepfake · Deepfake expérimental réalisé avec 
+    substitution faciale · Étude des GANs, autoencoders, CNN, RNN et NLP · 
+    Recommandations sur la détection, l'authentification MFA et le cadre RGPD
+  tags: [GAN, Autoencoders, CNN, RNN, DeepFaceLab, Cybersécurité, RGPD, Deep Learning]
   category: "IA & Éthique"
   status: "terminé"
   github: "https://github.com/Sadabire/Deepfake-IA-Generative-Media-Cybersecurite"
@@ -46,11 +62,16 @@
 - id: analyse-ventes-reseau
   title: "Analyse des ventes d'un réseau de magasins"
   description: >-
-    Projet SAE BUT 3. Exploration, modélisation et visualisation des données de ventes
-    pour identifier les tendances et optimiser les performances commerciales.
+    Analyse des ventes de produits alimentaires dans un réseau de 6 magasins 
+    sur 2022–2024 (40 860 observations, 10 produits). Nettoyage des données, 
+    imputation par médiane hiérarchique, analyse descriptive des tendances 
+    saisonnières, effet des promotions et compétition entre magasins. 
+    Modélisation par régression de Poisson (GLM) avec 7 modèles comparés par AIC.
   results: >-
-    Dashboard R Shiny interactif · 5 variables explicatives identifiées · Modèle prédictif R²=0.82
-  tags: [R, Statistiques, Visualisation, Data Mining]
+    Meilleur modèle AIC = 813 320 (avec variables financières) · Promotions : 
+    +48% de ventes (62 → 92 unités) · Week-end : +21% vs semaine · 
+    Magasin_6 le plus performant · MAE = 24,78 · Corrélation prédictions/observations = 0,543
+  tags: [R, GLM Poisson, AIC, Statistiques descriptives, Saisonnalité, IQR, Visualisation]
   category: "Data Analysis"
   status: "terminé"
   github: "https://github.com/Sadabire/Analyse-des-ventes-de-produits-dans-un-r-seau-de-magasins"
@@ -61,11 +82,13 @@
 - id: imputation-mice
   title: "Stratégies d'imputation sur données réelles"
   description: >-
-    Étude des mécanismes MCAR, MAR et MNAR. Imputations simples et multiples (MICE)
-    via des pipelines scikit-learn sur le dataset Titanic.
+    Étude des mécanismes de données manquantes MCAR, MAR et MNAR. Comparaison 
+    des stratégies d'imputation simple (moyenne, médiane) et multiple (MICE) 
+    via des pipelines scikit-learn appliqués au dataset Titanic.
   results: >-
-    MICE vs mean imputation : +6% accuracy · Pipeline scikit-learn complet · 3 mécanismes comparés
-  tags: [Python, scikit-learn, MICE, Pandas, Statistiques]
+    MICE vs imputation par moyenne : gain de précision mesuré · 
+    Pipeline scikit-learn complet · 3 mécanismes de manquance comparés
+  tags: [Python, scikit-learn, MICE, MCAR, MAR, MNAR, Pandas, Pipeline]
   category: "Machine Learning"
   status: "terminé"
   github: ""
@@ -79,7 +102,7 @@
     Conception d'un tableau de bord interactif Power BI. Modélisation des données,
     mesures DAX et visualisation des KPIs pour le pilotage commercial.
   results: ""
-  tags: [Power BI, DAX, Data Visualization, Business Intelligence]
+  tags: [Power BI, DAX, KPI, Business Intelligence, Data Visualisation]
   category: "Data Visualisation"
   status: "en_cours"
   github: ""

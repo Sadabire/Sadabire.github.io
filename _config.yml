@@ -108,5 +108,3 @@ exclude:
   - "*.gem"
   - README.md
   - vendor
-head_scripts:
-  - /assets/css/custom.css

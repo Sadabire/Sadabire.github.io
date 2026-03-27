@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 Étudiant en **BUT Science des données** à l'IUT Clermont Auvergne (Aurillac),
-je poursuis en **cycle ingénieur généraliste spécialisé IA & Big Data** à l'ESIGELEC
+je vais poursuivre en **cycle ingénieur généraliste spécialisé IA & Big Data** à l'ESIGELEC
 de Poitiers à partir de 2026.
 
 Je recherche une **alternance de 36 mois dès septembre 2026** dans un environnement

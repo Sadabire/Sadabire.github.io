@@ -103,7 +103,7 @@
   results:  Le tableau de bord développé sous Power BI regroupe 9 indicateurs clés calculés en DAX (ARPU, Churn Rate, MTTR, etc.) répartis sur 3 pages interactives avec filtres dynamiques par produit, région et période. L'analyse avancée a permis de mettre en évidence une corrélation négative significative (r = -0,72) entre la satisfaction client et le taux de désabonnement, ainsi qu'une tendance de croissance du CA confirmée par des prévisions sur 6 mois avec un intervalle de confiance à 95%.
   tags: [Power BI, DAX, KPI, Business Intelligence, Data Visualisation]
   category: "Data Visualisation"
-  status: "en_cours"
+  status: "terminé"
   github: https://github.com/Sadabire/-tude-de-cas-Analyse-des-ventes-avec-Power-BI
   image: "/assets/img/projects/powerbi.png"
   demo: ""

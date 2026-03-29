@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 author_profile: true
 header:
   overlay_color: "#1a1a2e"

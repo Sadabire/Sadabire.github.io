@@ -36,13 +36,13 @@ git commit -m "feat: mise à jour portfolio"
 git push origin main
 ```
 
-Le site sera accessible sur : **https://sadabire.github.io**
+Le site est accessible sur : **https://sadabire.github.io**
 
 ---
 
-## Ajouter un projet
+## Ajout de projet
 
-Ouvre `_data/projects.yml` et ajoute un bloc :
+ Dans `_data/projects.yml`  j'ajoute un bloc :
 
 ```yaml
 - id: mon-nouveau-projet
@@ -76,17 +76,8 @@ Sadabire.github.io/
 │   ├── veille.md
 │   └── contact.md
 ├── assets/
-│   ├── img/avatar.jpg   ← ta photo de profil
-│   └── cv-joel-dabire.pdf ← ton CV à télécharger
+│   ├── img/avatar.jpg   ← ma photo de profil
+│   └── cv-joel-dabire.pdf ← mon CV à télécharger
 └── index.md             ← page d'accueil
 ```
 
----
-
-## Personnalisations à faire
-
-- [ ] Remplacer `/assets/img/avatar.jpg` par ta vraie photo
-- [ ] Mettre à jour l'URL LinkedIn dans `_config.yml`
-- [ ] Ajouter ton endpoint Formspree dans `_pages/contact.md`
-- [ ] Déposer ton CV PDF dans `/assets/cv-joel-dabire.pdf`
-- [ ] Activer GitHub Pages dans les Settings du repo

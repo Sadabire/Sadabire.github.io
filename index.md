@@ -19,8 +19,6 @@ excerpt: >-
 
 ## Qui suis-je ?
 
-<div style="text-align: justify;"> 
-
 Étudiant en fin de **BUT Science des données** à l'IUT Clermont Auvergne (Aurillac),
 je poursuis prochainement un cycle ingénieur généraliste spécialisé en
 **Intelligence Artificielle & Big Data** à l'ESIGELEC de Poitiers.
@@ -40,8 +38,6 @@ du **nettoyage et de la modélisation statistique** au **machine learning** et �
 
 Je suis activement à la recherche d'une **alternance de 36 mois** dès septembre 2026,
 dans un environnement où la data et l'IA constituent de véritables leviers stratégiques.
-
-</div>
 
 [Découvrir mes projets](/projets/){: .btn .btn--primary .btn--large}
 [Télécharger mon CV](/assets/cv-joel-dabire.pdf){: .btn .btn--inverse .btn--large}

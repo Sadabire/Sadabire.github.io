@@ -6,20 +6,18 @@
 # --- Infos du site ---
 title: "Joël DABIRE"
 title_separator: "·"
-subtitle: "Ingénieur IA & Big Data en recherche d' alternance"
+subtitle: "Data Scientist & Ingénieur Machine Learning"
 name: "Saânbèterfaa Joël DABIRE"
 description: >-
-  Étudiant en BUT Science des données et futur ingénieur IA & Big Data
-  à l'ESIGELEC de Poitiers. En recherche d'alternance 36 mois dès
-  septembre 2026, dans un environnement où la data et l'IA constituent
-  de véritables leviers stratégiques.
+  Portfolio moderne orienté projets Data Science, Machine Learning et Big Data.
+  Solutions data-driven, prototypes IA et livrables métier prêts à l'usage.
 url: "https://sadabire.github.io"
 baseurl: ""
 repository: "Sadabire/Sadabire.github.io"
 
 # --- Thème ---
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin: "contrast"  # options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+minimal_mistakes_skin: "dark"  # options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
 
 # --- Plugins GitHub Pages ---
 plugins:

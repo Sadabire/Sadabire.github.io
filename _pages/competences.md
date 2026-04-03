@@ -5,11 +5,37 @@ permalink: /competences/
 author_profile: true
 ---
 
-<div class="page-intro">
-  <span class="page-eyebrow">Compétences</span>
-  <h1 class="page-main-title">Un ensemble complet d’expertises data</h1>
-  <p>Je combine des compétences en data engineering, machine learning, visualisation et analyse pour concevoir des solutions adaptées aux besoins métier.</p>
-</div>
+<style>
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.4rem;
+  margin-top: 1.5rem;
+}
+.skill-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 1.1rem 1.2rem;
+  background: #fff;
+}
+.skill-card h3 {
+  font-size: 0.95rem;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.skill-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.skill-tag {
+  font-size: 0.78rem;
+  padding: 3px 10px;
+  border-radius: 14px;
+  background: #f3f3f3;
+  color: #333;
+  border: 1px solid #e0e0e0;
+}
+</style>
 
 <div class="skills-grid">
 {% for group in site.data.skills %}
@@ -24,11 +50,10 @@ author_profile: true
 {% endfor %}
 </div>
 
-<div class="page-section">
-  <h2>Langues</h2>
-  <ul>
-    <li><strong>Français</strong> — Langue maternelle</li>
-    <li><strong>Anglais</strong> — B1</li>
-    <li><strong>Espagnol</strong> — A1</li>
-  </ul>
-</div>
+---
+
+## Langues
+
+- **Français** — Langue maternelle
+- **Anglais** — B1
+- **Espagnol** — A1

@@ -1,6 +1,6 @@
-# =============================================================================
-# _config.yml — Portfolio Joël DABIRE — Design Moderne
-# =============================================================================
+# ============================================================
+# _config.yml — Portfolio Joël DABIRE — Design Blanc & Orange
+# ============================================================
 
 title: "Joël DABIRE"
 title_separator: "·"
@@ -13,9 +13,8 @@ url: "https://sadabire.github.io"
 baseurl: ""
 repository: "Sadabire/Sadabire.github.io"
 
-# Thème Minimal Mistakes — skin sombre
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "default"
 
 plugins:
   - jekyll-paginate
@@ -28,25 +27,9 @@ plugins:
 author:
   name: "Joël DABIRE"
   avatar: "/assets/img/avatar.jpg"
-  bio: >-
-    En fin de BUT Science des données, je prépare un cycle ingénieur
-    IA & Big Data à l'ESIGELEC de Poitiers. Je suis activement à la
-    recherche d'une alternance de 36 mois à partir de septembre 2026
-    dans les domaines de la Data, du Machine Learning et du Big Data.
+  bio: ""
   location: "Aurillac, France · Mobilité nationale"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Sadabire"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/dabsanj18"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:jodabire18@gmail.com"
-    - label: "07 80 54 61 99"
-      icon: "fas fa-fw fa-phone"
-      url: "tel:+33780546199"
+  links: []
 
 footer:
   links:

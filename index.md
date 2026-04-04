@@ -27,7 +27,7 @@ classes: wide
   <div class="jd-hero-content">
     <div class="jd-hero-tag anim-fade-up delay-1">Disponible en alternance · Sept. 2026</div>
     <h1 class="jd-hero-title anim-fade-up delay-2">
-      Data Scientist<br>& <span>Ingénieur</span><br>Machine Learning
+      Futur Ingénieur<br><span>IA & Big Data</span><br>— Data Analyst
     </h1>
     <p class="jd-hero-desc anim-fade-up delay-3">
       En fin de <strong>BUT Science des données</strong>, je prépare un cycle ingénieur

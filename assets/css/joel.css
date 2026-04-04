@@ -240,7 +240,7 @@ body {
 
 .jd-hero-title {
   font-family: 'Syne', sans-serif;
-  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  font-size: clamp(2rem, 4vw, 3.2rem);
   font-weight: 800;
   color: var(--text-dark);
   line-height: 1.1;
@@ -401,7 +401,7 @@ body {
 
 /* ── Section générique ───────────────────────────────────── */
 .jd-section {
-  padding: 6rem 5%;
+  padding: 3.5rem 5%;
 }
 
 .jd-section-alt { background: var(--bg2); }
@@ -472,7 +472,7 @@ body {
   box-shadow: 0 8px 24px rgba(249,115,22,0.12);
 }
 
-.jd-exp-card .exp-icon { font-size: 2rem; margin-bottom: 0.6rem; display: block; }
+.jd-exp-card .exp-icon { font-size: 1.6rem; color: var(--orange); margin-bottom: 0.6rem; display: block; }
 .jd-exp-card .exp-name { font-weight: 600; font-size: 0.9rem; color: var(--text-dark); }
 
 /* ── Tech badges ─────────────────────────────────────────── */
@@ -546,7 +546,7 @@ body {
 
 .jd-page-header {
   background: linear-gradient(135deg, var(--orange-light) 0%, #fff 60%);
-  padding: 4rem 5% 3rem;
+  padding: 2.5rem 5% 2rem;
   border-bottom: 1px solid var(--border);
 }
 

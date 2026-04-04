@@ -1,27 +1,22 @@
 # =============================================================================
-# _config.yml — Portfolio de Joël DABIRE
-# Thème : Minimal Mistakes (remote theme)
+# _config.yml — Portfolio Joël DABIRE — Design Moderne
 # =============================================================================
 
-# --- Infos du site ---
 title: "Joël DABIRE"
 title_separator: "·"
-subtitle: "Ingénieur IA & Big Data en alternance"
+subtitle: "Data Scientist & Ingénieur Machine Learning"
 name: "Saânbèterfaa Joël DABIRE"
 description: >-
-  Étudiant ingénieur en IA & Big Data à l'ESIGELEC. Passionné de data,
-  machine learning et visualisation. À la recherche d'une alternance 36 mois
-  à partir de septembre 2026.
+  Étudiant en fin de BUT Science des données, futur ingénieur IA & Big Data
+  à l'ESIGELEC de Poitiers. En recherche d'alternance 36 mois dès septembre 2026.
 url: "https://sadabire.github.io"
 baseurl: ""
 repository: "Sadabire/Sadabire.github.io"
 
-# --- Thème ---
+# Thème Minimal Mistakes — skin sombre
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin: "contrast"  # options: default, air, aqua, contrast, dark
-, dirt, neon, mint, plum, sunrise
+minimal_mistakes_skin: "dark"
 
-# --- Plugins GitHub Pages ---
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -30,27 +25,29 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
 
-# --- Auteur ---
 author:
   name: "Joël DABIRE"
   avatar: "/assets/img/avatar.jpg"
   bio: >-
-    Étudiant ingénieur IA & Big Data · ESIGELEC Poitiers.
-    Analyse de données · Machine Learning · Big Data.
+    En fin de BUT Science des données, je prépare un cycle ingénieur
+    IA & Big Data à l'ESIGELEC de Poitiers. Je suis activement à la
+    recherche d'une alternance de 36 mois à partir de septembre 2026
+    dans les domaines de la Data, du Machine Learning et du Big Data.
   location: "Aurillac, France · Mobilité nationale"
-  email: "jodabire18@gmail.com"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Sadabire"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/joel-dabire"  # à mettre à jour
+      url: "https://linkedin.com/in/dabsanj18"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:jodabire18@gmail.com"
+    - label: "07 80 54 61 99"
+      icon: "fas fa-fw fa-phone"
+      url: "tel:+33780546199"
 
-# --- Footer ---
 footer:
   links:
     - label: "GitHub"
@@ -58,38 +55,19 @@ footer:
       url: "https://github.com/Sadabire"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/joel-dabire"
+      url: "https://linkedin.com/in/dabsanj18"
 
-# --- Navigation ---
-# Définie dans _data/navigation.yml
-
-# --- Lecture ---
 include:
   - _pages
 
-# --- Pagination ---
-paginate: 6
-paginate_path: /projets/page:num/
-
-# --- Defaults ---
 defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      share: false
-
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
 
-# --- Encoding ---
 encoding: "utf-8"
 markdown: kramdown
 highlighter: rouge
@@ -99,7 +77,6 @@ kramdown:
   auto_ids: true
   syntax_highlighter: rouge
 
-# --- Exclusions build ---
 exclude:
   - Gemfile
   - Gemfile.lock

@@ -73,7 +73,7 @@ classes: wide
     <span class="jd-stat-label">Projets réalisés</span>
   </div>
   <div class="jd-stat reveal">
-    <span class="jd-stat-num">3+</span>
+    <span class="jd-stat-num">1+</span>
     <span class="jd-stat-label">Ans d'expérience</span>
   </div>
   <div class="jd-stat reveal">
@@ -97,45 +97,57 @@ classes: wide
     </p>
   </div>
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
   <div class="jd-exp-grid">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-
-<div class="jd-exp-grid">
-  <div class="jd-exp-card reveal"><i class="fas fa-robot exp-icon"></i><span class="exp-name">Machine Learning</span></div>
-  <div class="jd-exp-card reveal"><i class="fas fa-chart-line exp-icon"></i><span class="exp-name">Modélisation & Analyse</span></div>
-  <div class="jd-exp-card reveal"><i class="fas fa-brain exp-icon"></i><span class="exp-name">Deep Learning</span></div>
-  <div class="jd-exp-card reveal"><i class="fas fa-cloud exp-icon"></i><span class="exp-name">Big Data & Cloud</span></div>
-  <div class="jd-exp-card reveal"><i class="fas fa-database exp-icon"></i><span class="exp-name">Bases de données</span></div>
-  <div class="jd-exp-card reveal"><i class="fas fa-chart-bar exp-icon"></i><span class="exp-name">Data Visualisation</span></div>
-  <div class="jd-exp-card reveal"><i class="fas fa-shield-alt exp-icon"></i><span class="exp-name">Cybersécurité & RGPD</span></div>
-  <div class="jd-exp-card reveal"><i class="fas fa-cogs exp-icon"></i><span class="exp-name">ETL & ERP</span></div>
-</div>
-
-  <div class="jd-tech-row">
-    <span class="jd-tech">Python</span>
-    <span class="jd-tech">R</span>
-    <span class="jd-tech">SQL</span>
-    <span class="jd-tech">TensorFlow</span>
-    <span class="jd-tech">scikit-learn</span>
-    <span class="jd-tech">Power BI</span>
-    <span class="jd-tech">MongoDB</span>
-    <span class="jd-tech">PostgreSQL</span>
-    <span class="jd-tech">Git & GitHub</span>
-    <span class="jd-tech">Pandas</span>
-    <span class="jd-tech">PyTorch</span>
-    <span class="jd-tech">STATA</span>
+    <div class="jd-exp-card reveal">
+      <i class="devicon-python-plain colored exp-icon"></i>
+      <span class="exp-name">Python</span>
+    </div>
+    <div class="jd-exp-card reveal">
+      <i class="devicon-r-plain colored exp-icon"></i>
+      <span class="exp-name">R</span>
+    </div>
+    <div class="jd-exp-card reveal">
+      <i class="devicon-tensorflow-original colored exp-icon"></i>
+      <span class="exp-name">TensorFlow</span>
+    </div>
+    <div class="jd-exp-card reveal">
+      <i class="devicon-pytorch-original colored exp-icon"></i>
+      <span class="exp-name">PyTorch</span>
+    </div>
+    <div class="jd-exp-card reveal">
+      <i class="devicon-postgresql-plain colored exp-icon"></i>
+      <span class="exp-name">PostgreSQL</span>
+    </div>
+    <div class="jd-exp-card reveal">
+      <i class="devicon-mongodb-plain colored exp-icon"></i>
+      <span class="exp-name">MongoDB</span>
+    </div>
+    <div class="jd-exp-card reveal">
+      <i class="devicon-github-original colored exp-icon"></i>
+      <span class="exp-name">Git & GitHub</span>
+    </div>
+    <div class="jd-exp-card reveal">
+      <i class="devicon-jupyter-plain colored exp-icon"></i>
+      <span class="exp-name">Jupyter</span>
+    </div>
+    <div class="jd-exp-card reveal">
+      <i class="devicon-pandas-plain colored exp-icon"></i>
+      <span class="exp-name">Pandas</span>
+    </div>
+    <div class="jd-exp-card reveal">
+      <i class="devicon-scikitlearn-plain colored exp-icon"></i>
+      <span class="exp-name">Scikit-learn</span>
+    </div>
+    <div class="jd-exp-card reveal">
+      <i class="devicon-vscode-plain colored exp-icon"></i>
+      <span class="exp-name">VS Code</span>
+    </div>
+    <div class="jd-exp-card reveal">
+      <i class="devicon-neo4j-plain colored exp-icon"></i>
+      <span class="exp-name">Neo4j</span>
+    </div>
   </div>
 </section>
 
-<!-- CTA -->
-<section class="jd-cta">
-  <h2 class="reveal">Prêt à construire la prochaine solution data ?</h2>
-  <p class="reveal">
-    Je recherche une alternance de 36 mois à partir de septembre 2026, dans un environnement
-    où la data et l'IA constituent de véritables leviers stratégiques.
-  </p>
-  <div class="jd-cta-btns reveal">
-    <a href="/contact/" class="jd-btn jd-btn-primary">Échangeons</a>
-    <a href="/assets/cv-joel-dabire.pdf" class="jd-btn jd-btn-outline" download style="color:#fff !important; border-color:rgba(255,255,255,0.3)">⬇ Télécharger mon CV</a>
-  </div>
-</section>

@@ -472,7 +472,8 @@ body {
   box-shadow: 0 8px 24px rgba(249,115,22,0.12);
 }
 
-.jd-exp-card .exp-icon { font-size: 1.6rem; color: var(--orange); margin-bottom: 0.6rem; display: block; }
+.jd-exp-card .exp-icon { font-size: 2.5rem; margin-bottom: 0.6rem; display: block; line-height: 1; }
+.jd-exp-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 1rem; }
 .jd-exp-card .exp-name { font-weight: 600; font-size: 0.9rem; color: var(--text-dark); }
 
 /* ── Tech badges ─────────────────────────────────────────── */

@@ -98,15 +98,42 @@ classes: wide
   </div>
 
   <div class="jd-exp-grid">
-    <div class="jd-exp-card reveal"><span class="exp-icon">🤖</span><span class="exp-name">Machine Learning</span></div>
-    <div class="jd-exp-card reveal"><span class="exp-icon">📊</span><span class="exp-name">Modélisation & Analyse</span></div>
-    <div class="jd-exp-card reveal"><span class="exp-icon">🧠</span><span class="exp-name">Deep Learning</span></div>
-    <div class="jd-exp-card reveal"><span class="exp-icon">☁️</span><span class="exp-name">Big Data & Cloud</span></div>
-    <div class="jd-exp-card reveal"><span class="exp-icon">🗄️</span><span class="exp-name">Bases de données</span></div>
-    <div class="jd-exp-card reveal"><span class="exp-icon">📈</span><span class="exp-name">Data Visualisation</span></div>
-    <div class="jd-exp-card reveal"><span class="exp-icon">🔐</span><span class="exp-name">Cybersécurité & RGPD</span></div>
-    <div class="jd-exp-card reveal"><span class="exp-icon">⚙️</span><span class="exp-name">ETL & ERP</span></div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+<div class="jd-exp-grid">
+  <div class="jd-exp-card reveal">
+    <i class="devicon-python-plain colored exp-icon"></i>
+    <span class="exp-name">Python</span>
   </div>
+  <div class="jd-exp-card reveal">
+    <i class="devicon-r-plain colored exp-icon"></i>
+    <span class="exp-name">R</span>
+  </div>
+  <div class="jd-exp-card reveal">
+    <i class="devicon-tensorflow-original colored exp-icon"></i>
+    <span class="exp-name">TensorFlow</span>
+  </div>
+  <div class="jd-exp-card reveal">
+    <i class="devicon-pytorch-original colored exp-icon"></i>
+    <span class="exp-name">PyTorch</span>
+  </div>
+  <div class="jd-exp-card reveal">
+    <i class="devicon-postgresql-plain colored exp-icon"></i>
+    <span class="exp-name">PostgreSQL</span>
+  </div>
+  <div class="jd-exp-card reveal">
+    <i class="devicon-mongodb-plain colored exp-icon"></i>
+    <span class="exp-name">MongoDB</span>
+  </div>
+  <div class="jd-exp-card reveal">
+    <i class="devicon-git-plain colored exp-icon"></i>
+    <span class="exp-name">Git & GitHub</span>
+  </div>
+  <div class="jd-exp-card reveal">
+    <i class="devicon-jupyter-plain colored exp-icon"></i>
+    <span class="exp-name">Jupyter</span>
+  </div>
+</div>
 
   <div class="jd-tech-row">
     <span class="jd-tech">Python</span>
